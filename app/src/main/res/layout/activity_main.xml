@@ -26,6 +26,7 @@
         android:layout_marginTop="20dp"
         android:padding="20dp" />
 
+
     <TextView
         android:id="@+id/fromMe_textview"
         android:layout_width="wrap_content"
