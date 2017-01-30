@@ -7,15 +7,37 @@
     android:layout_height="match_parent"
     tools:context="com.example.android.valentinesday.MainActivity">
 
-<ImageView
-    android:src="@drawable/hearts-background"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:scaleType="center" />
-
+    <ImageView
+        android:src="@drawable/heartBG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop" />
 
     <TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Hello World!" />
+        android:id="@+id/hvd_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F06292"
+        android:text="Happy Valentines Day"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:padding="20dp" />
+
+    <TextView
+        android:id="@+id/fromMe_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Love You Lots"
+        android:background="#F06292"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:layout_marginBottom="20dp" />
+
 </RelativeLayout>
